@@ -1,0 +1,15 @@
+{
+  "name": "mcp-falcon-radar",
+  "version": "1.0.0",
+  "description": "MCP Falcon Data Hub para RADAR-BB",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "express": "^5.0.0",
+    "zod": "^3.23.8"
+  }
+}
